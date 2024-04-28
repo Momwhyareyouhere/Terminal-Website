@@ -13,3 +13,13 @@ git clone https://github.com/Momwhyareyouhere/Terminal-Website.git
 cd Terminal-Website
 python app.py
 ```
+
+# Uninstall
+
+```
+cd
+deactivate
+sudo apt remove python3.11-venv
+sudo rm -rf venv
+sudo rm -rf Terminal-Website
+```
