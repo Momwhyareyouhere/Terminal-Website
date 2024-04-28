@@ -4,6 +4,7 @@ This project runs a server and that server is connected to you terminal and you 
 # Installation
 
 ```
+cd
 sudo apt install python3
 sudo apt install python3.11-venv
 python3 -m venv venv
@@ -20,8 +21,14 @@ python app.py
 
 ```
 cd
+sudo rm -rf Terminal-Website
+```
+
+# Remove venv (optional):
+
+```
+cd
 deactivate
 sudo apt remove python3.11-venv
 sudo rm -rf venv
-sudo rm -rf Terminal-Website
 ```
